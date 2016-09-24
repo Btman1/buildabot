@@ -9,8 +9,14 @@ gameInput.keydown(function(keydownEvent) {
 })
 
 function parseText(text) {    
-    if (text === "hello") {
-      gameOutput.html("Goodbye");
-    }
+  if (text === "Good bye") {
+    gameOutput.html("SEE YA!");
+  }else if (text==="what is your name?") {
+    gameOutput.html("All powerful hot dog Bot")
+  } else if (text === "robot come out!") {
+    gameOutput.html("NEVER")
+  } else if (text ==="move") {
+    gameOutput.animate({top: 500});
+  }
 }
 
