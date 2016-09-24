@@ -1,0 +1,2 @@
+# buildabot
+Classadoo generated repo
